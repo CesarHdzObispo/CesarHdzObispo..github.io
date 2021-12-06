@@ -242,7 +242,12 @@ grub-mkconfig -o /boot/grub/grub.cfg
 ### 19. Interfaz grafica.
 Si lo unico que necesita es utilizar la terminal este paso se omite pero si necesita un gestor de ventanas o entorno de escritorio es necesario instalar el que usted prefiera. 
 
-Puede consultar los entornos de escritorio que son compatibles con Archlinux en la siguiente liga [Entornos de escritorio](https://wiki.archlinux.org/title/Desktop_environment_(Espa%C3%B1ol)#X_Window_System).
+Puede consultar los entornos de escritorio que alizados estos pasos ya sera posible observar en eson compatibles con Archlinux en la siguiente liga [Entornos de escritorio](https://wiki.archlinux.org/title/Desktop_environment_(Espa%C3%B1ol)#X_Window_System).
+
+### 20. Configuracion de UEFI
+Si revisa el menu de booteo UEFI de su equipo, no encontrara ninguna opcion asociada al sistema que sea acaba de instalar. Esto se soluciona ingresando al apartado **Security --> Select an UEFI file as trusted for executing --> Dispositivo en el que fue instalado el sistema, grubx64.efi, se mostrara una ventana en la cual es necesario darle una descripción** y una vez realizados estos pasos ya sera posible observar en el menu de booteo el nuevo sistema.
+
+![UEFI file](/assets/images/uefi-security.jpg)
 
 # Referencias
 
