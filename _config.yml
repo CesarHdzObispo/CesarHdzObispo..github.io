@@ -1,0 +1,25 @@
+title: Mi Blog - CesarHdz
+email: cesarhdzobispo@hotmail.com
+description: >- 
+  Blog orientado a practicas, laboratorios y recomendaciones de seguridad informatica.
+kramdown:
+  input: GFM
+twitter_username: CesarHdzObispo
+github_username:  CesarHdzObispo
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
